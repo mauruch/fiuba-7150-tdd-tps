@@ -14,10 +14,6 @@ public class SimpleQueue<T> implements Queue<T> {
         this.linkedList = new SimpleLinkedList();
     }
 
-    public SimpleQueue(SimpleLinkedList linkedList) {
-        this.linkedList = linkedList;
-    }
-
     @Override
     public boolean isEmpty() {
         return linkedList.isEmpty();

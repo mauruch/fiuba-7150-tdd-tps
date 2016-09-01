@@ -11,8 +11,6 @@ public class NodeData<T> implements Node<T> {
     private T data;
     private static final int NODE_DATA_SIZE = 1;
 
-    public NodeData() {}
-
     public NodeData(T data) {
         this.data = data;
     }

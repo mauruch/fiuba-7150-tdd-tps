@@ -14,10 +14,6 @@ public class SimpleLinkedList<T> {
         this.first = new NodeFirst();
     }
 
-    public SimpleLinkedList(T data) {
-        this.first = new NodeData(data);
-    }
-
     public void add(T item) {
         first.setNext(new NodeData(item));
     }
